@@ -11,7 +11,7 @@ import io.cucumber.junit.CucumberOptions;
 @CucumberOptions(
 		features = "C:\\Projects\\MobileWebmotorsTeste\\src\\test\\resources\\features",
 		glue = "steps",
-		tags ="@CT04",
+		tags ="@CT06",
 		monochrome = true)
 
 public class Runner {

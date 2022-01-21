@@ -10,6 +10,13 @@ public class DetalhesDoCarroPage extends BasePage {
 		return getDriver().findElement(By.xpath("(//android.view.ViewGroup/android.widget.TextView[@index='1'])[2]")).getText();
 	}
 	
+	public String cmpPreco() {
+		return getDriver().findElement(By.xpath("//android.widget.TextView[@index='3']")).getText();
+	}
+	
+	public String cmpModelo() {
+		return getDriver().findElement(By.xpath("//android.widget.TextView[@index='2']")).getText();
+	}
 	
 	public String obterDetalhesAno() {
 		return getDriver().findElement(By.xpath("//android.widget.LinearLayout/android.widget.TextView[@index='1']")).getText();

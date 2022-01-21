@@ -5,7 +5,7 @@ Feature: Tela de listagem
   @CT01
   Scenario: Verificar se os campos do anuncio nao estao vazios
     Given que estou na tela de listagem
-    Then verifico se os campos nao estao vazios
+    Then verifico se os campos na tela de listagem nao estao vazios
     
   @CT02
   Scenario: Acessar a tela de detalhes do carro clicando na imagem do anuncio

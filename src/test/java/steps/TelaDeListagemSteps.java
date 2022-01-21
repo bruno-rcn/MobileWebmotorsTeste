@@ -18,7 +18,7 @@ public class TelaDeListagemSteps {
 		Assert.assertEquals("Carros", telaListagemPage.tituloTela("Carros"));
 	}
 	
-	@Then("verifico se os campos nao estao vazios")
+	@Then("verifico se os campos na tela de listagem nao estao vazios")
 	public void verifico_se_os_campos_nao_estao_vazios() {
 		Assert.assertFalse(telaListagemPage.cmpPreco().isEmpty());
 		Assert.assertFalse(telaListagemPage.cmpNome().isEmpty());
